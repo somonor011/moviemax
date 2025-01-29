@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-family: system-ui;
+    background: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #0d0c0c;
+}
+
+a , li{
+    text-decoration: none;
+    list-style: none;
+}
+
+header > h1 > a{
+    color: white;
+}
+
+header > .navbar > ul > .nav-list{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+header > .navbar > ul > .nav-list > a{
+    color: white;
+    font-size: 17px;
+}
+
+header > .icon-side > button > a{
+    color: white;
+    font-size: 20px;
+} 
+
+header > .icon-side > button{
+    border: none;
+    background: none;
+    padding: 10px;
+}
+
+main{
+    position: relative;
+    height: 675px;
+    width: 100%;
+    background: url("image/head.png");
+    background-position: center;
+    background-size: cover;
+}
