@@ -12,8 +12,8 @@
 </head>
 
 <body>
-    <header>
-        <h1 class="logo"><a href="#">SMN<span style="color: red;">MAX</span></a></h1>
+    <header class="header">
+        <h1 class="logo"><a href="#">MOVIE<span style="color: red;">MAX</span></a></h1>
         <nav class="navbar">
             <ul>
                 <li class="nav-list"><a href="#">Home</a></li>
@@ -26,12 +26,58 @@
         <div class="icon-side">
             <button><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></button>
             <button><a href=""><i class="fa-regular fa-bell"></i></a></button>
-            <button><a href=""><i class="fa-regular fa-circle-user"></i></a></button>
+            <button id="btnShow"><a href=""><i class="fa-regular fa-circle-user"></i></a></button>
         </div>
     </header>
 
     <main>
+        <div class="containerr">
+            <h1 class="title">The Amazing Spider-Man</h1>
+            <div class="smth">
+                <span class="m">Mystery</span>
+                <i class="fa-solid dot m fa-circle fa-2xs" style="color: #f00a0a;"></i>
+                <span class="m">Historical</span>
+            </div>
+            <p class="desc">
+                Peter Parker, a high school student living in New York City who is an awkward outsider. After being
+                bitten by a genetically modified spider during a school field trip, Peter gains incredible powers,
+            </p>
+            <div class="smth1">
+                <p><i class="fa-regular fa-clock"></i> 1h</p>
+                <p><i class="fa-regular fa-closed-captioning"></i> Subtitle</p>
+                <p><i class="fa-solid fa-star fa-2xs" style="color: #e10909;"></i> 9.3</p>
+            </div>
+            <div class="btn-blog">
+                <button class="btnStr">Stream Now</button>
+                <button class="btnPl">Add to Playlist</button>
+            </div>
+        </div>
 
+        <!-- modal -->
+        <div class="popup" >
+            <div class="btnClose">&times;</div>
+            <div class="form" >
+                <h2>Login</h2>
+                <div class="form-element">
+                    <label for="email">Email</label>
+                    <input type="text" name="" id="email" placeholder="Enter email">
+                </div>
+                <div class="form-element">
+                    <label for="pw">Password</label>
+                    <input type="password" name="" id="pw" placeholder="Enter password">
+                </div>
+                <div class="form-element">
+                    <input type="checkbox" name="" id="rememberMe">
+                    <label for="rememberMe">Remember me</label>
+                </div>
+                <div class="form-element">
+                    <button>Login</button>
+                </div>
+                <div class="form-element">
+                    <a href="#">Forgot Password ?</a>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
