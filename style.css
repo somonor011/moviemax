@@ -5,6 +5,10 @@
     font-family: system-ui;
 }
 
+body{
+    background-color: #5C7285;
+}
+
 header{
     background: gray;
     display: flex;
@@ -31,7 +35,14 @@ header > .navbar > ul > .nav-list{
 header > .navbar > ul > .nav-list > a{
     color: white;
     font-size: 17px;
+    transition:  0.3s;
+    font-weight: 600;
 }
+
+header > .navbar > ul > .nav-list:hover > a{
+    color: red;
+}
+
 
 header > .icon-side > button > a{
     color: white;
@@ -97,6 +108,7 @@ main > .containerr > .btn-blog > button{
     padding: 10px 15px;
     border-radius: 6px;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 main > .containerr > .btn-blog > .btnStr{
@@ -125,7 +137,7 @@ main > .containerr > .btn-blog > .btnPl{
     background: #fff;
     box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
-    
+    transition: 0.5s;
 }
 
 .popup.active{
@@ -200,3 +212,4 @@ main > .containerr > .btn-blog > .btnPl{
     color: #1a79ca;
     font-weight: 600;
 }
+
